@@ -1,0 +1,4 @@
+command:mkdir
+mkdir is used to create a new directory under any directory.
+syntax: mkdir <directory name>
+example:mkdir linux
