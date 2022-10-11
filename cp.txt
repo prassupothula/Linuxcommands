@@ -1,0 +1,4 @@
+command:cp
+The cp command is used to copy a file or directory.
+syntax:cp <existing file name> <new file name> 
+example: cp rm.txt ls.txt
