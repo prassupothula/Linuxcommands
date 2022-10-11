@@ -1,0 +1,4 @@
+command:rm
+The rm command is used to remove a file.
+syntax : rm <file name>
+example: rm ls.txt
