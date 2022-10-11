@@ -1,0 +1,8 @@
+command:cat
+The cat command is a multi-purpose utility in the Linux system.
+It can be used to create a file, display content of the file and copy the content of one file to another file.
+syntax:cat [OPTION]... [FILE]..  
+example: cat > linuxcommands.txt
+//enter the content into file 
+//save the file by pressing ctrl+D
+for display use cat linuxcommand.txt//cat <file name>
