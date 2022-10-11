@@ -1,0 +1,2 @@
+command:ls
+ls is used to display a list of content of a directory.
