@@ -1,0 +1,8 @@
+command: find
+The find command is used to find a particular file within a directory. 
+It also supports various options to find a file such as byname,
+ by type, by date, and more.
+The following symbols are used after the find command:
+(.) : For current directory name
+(/) : For root
+Syntax: find . -name "*.pdf"  
