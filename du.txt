@@ -1,0 +1,7 @@
+command: du
+If you want to check how much space a file or a directory takes up,use the du command
+options:
+-s offers the total size of a specified folder.
+-m provides folder and file information in MB
+k displays information in KB.
+-h informs the last modification date of the displayed folders and files. 
