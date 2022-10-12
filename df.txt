@@ -1,0 +1,8 @@
+command : df
+if you want to see the current directory’s system disk space usage then use df command.
+options : 
+df -m displays information on the file system usage in MBs.
+df -k displays file system usage in KBs.
+df -T shows the file system type in a new column.
+syntax : df [options] [file]
+example : df -T add.c
