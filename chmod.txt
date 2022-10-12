@@ -1,0 +1,7 @@
+command: chmod
+chmod is a common command that modifies a file or directory’s read, write, and execute permissions.
+syntax : chmod [option] [permission] [file_name]
+options:
+-c or –changes displays information when a change is made.
+-f or –silent suppresses the error messages.
+-v or –verbose displays a diagnostic for each processed file.
