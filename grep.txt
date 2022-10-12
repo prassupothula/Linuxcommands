@@ -1,0 +1,7 @@
+command : grep
+The grep is the most powerful and used filter in a Linux system.
+The 'grep' stands for "global regular expression print."
+It is useful for searching the content from a file. 
+Generally, it is used with the pipe.
+syntax : command | grep <searchWord>  
+example: cat add.c | grep a,b
