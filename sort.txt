@@ -1,0 +1,5 @@
+command : sort
+The sort command is used to sort files in alphabetical order.
+Syntax: sort <file name>
+example : cat > marks.txt
+sort marks.txt
