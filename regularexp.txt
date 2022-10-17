@@ -1,0 +1,13 @@
+Basic Regex Character(s)	Meaning
+.	                        Any one single character
+[ ]	                        Any one specified character
+[^ ]	                    Not the one specified character
+*	                        Zero or more of the previous character
+^	                        If first character in the pattern, then pattern must be at beginning of the line to match, otherwise just a literal ^
+$	                        If last character in the pattern, then pattern must be at the end of the line to match, otherwise just a literal $
+Extended Regex Character(s)	Meaning
++	                        One or more of the previous pattern
+?	                        The preceding pattern is optional
+{ }	                        Specify minimum, maximum or exact matches of the previous pattern
+|	                        Alternation - a logical "or"
+( )	                        Used to create groups
