@@ -1,0 +1,58 @@
+Command Mode Movement
+[count] motion
+Motion	Result
+h	    Left one character
+j	    Down one line
+k	    Up one line
+l	    Right one character
+w	    One word forward
+b	    One word back
+^	    Beginning of line
+$	    End of the line
+Command Mode Actions:
+action [count] motion
+[count] action motion
+Standard	Vi	    Meaning
+cut     	d	    delete
+copy	    y	    yank
+paste	    P | p	put
+Delete:
+Action	    Result
+dd	        Delete current line
+3dd	        Delete the next three lines
+dw	        Delete the current word
+d3w	        Delete the next three words
+d4h	        Delete four characters to the left
+Change:
+Action	    Result
+cc	        Change current line
+cw	        Change current word
+c3w     	Change the next three words
+c5h	        Change five characters to the left
+Yank:
+Action	    Result
+yy	        Yank current line
+3yy	        Yank the next three lines
+yw	        Yank the current word
+y$	        Yank to the end of the line
+Put:
+Action	    Result
+p	        Put (paste) after cursor
+P	        Put before cursor
+Insert Mode:
+Input	    Purpose
+a	        Enter insert mode right after the cursor
+A	        Enter insert mode at the end of the line
+i	        Enter insert mode right before the cursor
+I	        Enter insert mode at the beginning of the line
+o	        Enter insert mode on a blank line after the cursor
+O	        Enter insert mode on a blank line before the cursor
+Ex Mode:
+Input	    Purpose
+:w	        Write the current file to the filesystem
+:w          filename Save a copy of the current file as filename
+:w!	        Force writing to the current file
+:1	        Go to line number 1 or whatever number is given
+:e          filename Open filename
+:q	        Quit if no changes made to file
+:q!	        Quit without saving changes to file
